@@ -9,39 +9,39 @@ https://templatemo.com/tm-581-kind-heart-charity
 
 
 @font-face {
-    font-family: 'Metropolis';
-    src: url('../fonts/Metropolis/Metropolis-Regular.woff2') format('woff2'),
-        url('../fonts/Metropolis/Metropolis-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Metropolis';
+  src: url('../fonts/Metropolis/Metropolis-Regular.woff2') format('woff2'),
+  url('../fonts/Metropolis/Metropolis-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Metropolis';
-    src: url('../fonts/Metropolis/Metropolis-Light.woff2') format('woff2'),
-        url('../fonts/Metropolis/Metropolis-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Metropolis';
+  src: url('../fonts/Metropolis/Metropolis-Light.woff2') format('woff2'),
+  url('../fonts/Metropolis/Metropolis-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Metropolis';
-    src: url('../fonts/Metropolis/Metropolis-SemiBold.woff2') format('woff2'),
-        url('../fonts/Metropolis/Metropolis-SemiBold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Metropolis';
+  src: url('../fonts/Metropolis/Metropolis-SemiBold.woff2') format('woff2'),
+  url('../fonts/Metropolis/Metropolis-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Metropolis';
-    src: url('../fonts/Metropolis/Metropolis-Bold.woff2') format('woff2'),
-        url('../fonts/Metropolis/Metropolis-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Metropolis';
+  src: url('../fonts/Metropolis/Metropolis-Bold.woff2') format('woff2'),
+  url('../fonts/Metropolis/Metropolis-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 /*---------------------------------------
@@ -49,7 +49,7 @@ https://templatemo.com/tm-581-kind-heart-charity
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color: #1d1b1e;
+  --primary-color: #000000;
   --secondary-color:              #5a6f80;
   --section-bg-color:             #f0f8ff;
   --site-footer-bg-color:         #44525d;
@@ -83,12 +83,12 @@ https://templatemo.com/tm-581-kind-heart-charity
 
 body {
   background-color: var(--white-color);
-  font-family: var(--body-font-family); 
+  font-family: var(--body-font-family);
 }
 
 
 /*---------------------------------------
-  TYPOGRAPHY               
+  TYPOGRAPHY
 -----------------------------------------*/
 
 h2,
@@ -150,7 +150,7 @@ ul li {
   font-weight: var(--font-weight-normal);
 }
 
-a, 
+a,
 button {
   touch-action: manipulation;
   transition: all 0.3s;
@@ -172,7 +172,7 @@ strong {
 
 
 /*---------------------------------------
-  SECTION               
+  SECTION
 -----------------------------------------*/
 .section-padding {
   padding-top: 100px;
@@ -199,7 +199,7 @@ strong {
 
 
 /*---------------------------------------
-  CUSTOM BLOCK               
+  CUSTOM BLOCK
 -----------------------------------------*/
 .custom-block-wrap {
   background: var(--white-color);
@@ -231,7 +231,7 @@ strong {
 
 
 /*---------------------------------------
-  PROGRESS BAR               
+  PROGRESS BAR
 -----------------------------------------*/
 .progress {
   background: var(--border-color);
@@ -244,7 +244,7 @@ strong {
 
 
 /*---------------------------------------
-  CUSTOM ICON COLOR               
+  CUSTOM ICON COLOR
 -----------------------------------------*/
 .custom-icon {
   color: var(--secondary-color);
@@ -252,7 +252,7 @@ strong {
 
 
 /*---------------------------------------
-  CUSTOM LIST               
+  CUSTOM LIST
 -----------------------------------------*/
 .custom-list {
   margin-bottom: 0;
@@ -267,7 +267,7 @@ strong {
 
 
 /*---------------------------------------
-  CUSTOM TEXT BOX               
+  CUSTOM TEXT BOX
 -----------------------------------------*/
 .custom-text-box {
   background: var(--white-color);
@@ -298,7 +298,7 @@ strong {
 
 
 /*---------------------------------------
-  AVATAR IMAGE - TESTIMONIAL, AUTHOR               
+  AVATAR IMAGE - TESTIMONIAL, AUTHOR
 -----------------------------------------*/
 .avatar-image {
   border-radius: var(--border-radius-large);
@@ -309,7 +309,7 @@ strong {
 
 
 /*---------------------------------------
-  CUSTOM BUTTON               
+  CUSTOM BUTTON
 -----------------------------------------*/
 .custom-btn {
   background: var(--secondary-color);
@@ -348,7 +348,7 @@ strong {
 
 
 /*---------------------------------------
-  NAVIGATION              
+  NAVIGATION
 -----------------------------------------*/
 .navbar {
   background: var(--white-color);
@@ -397,7 +397,7 @@ strong {
   padding-bottom: 15px;
 }
 
-.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
   background: transparent;
   color: var(--primary-color);
@@ -426,9 +426,9 @@ strong {
   padding-top: 0;
 }
 
-.dropdown-item.active, 
+.dropdown-item.active,
 .dropdown-item:active,
-.dropdown-item:focus, 
+.dropdown-item:focus,
 .dropdown-item:hover {
   background: transparent;
   color: var(--primary-color);
@@ -527,7 +527,7 @@ strong {
 
 
 /*---------------------------------------
-  SITE HEADER              
+  SITE HEADER
 -----------------------------------------*/
 .site-header {
   background: var(--primary-color);
@@ -556,7 +556,7 @@ strong {
 
 
 /*---------------------------------------
-  HERO & HERO SLIDE         
+  HERO & HERO SLIDE
 -----------------------------------------*/
 .hero-section-full-height {
   height: 680px;
@@ -564,7 +564,7 @@ strong {
   position: relative;
 }
 
-.carousel:hover .carousel-control-next-icon, 
+.carousel:hover .carousel-control-next-icon,
 .carousel:hover .carousel-control-prev-icon {
   opacity: 1;
 }
@@ -607,12 +607,12 @@ strong {
   justify-content: inherit;
 }
 
-.carousel-control-next, 
+.carousel-control-next,
 .carousel-control-prev {
   opacity: 1;
 }
 
-.carousel-control-next-icon, 
+.carousel-control-next-icon,
 .carousel-control-prev-icon {
   background-color: var(--secondary-color);
   border-radius: var(--border-radius-large);
@@ -623,14 +623,14 @@ strong {
   transition: all 0.5s;
 }
 
-.carousel-control-next-icon:hover, 
+.carousel-control-next-icon:hover,
 .carousel-control-prev-icon:hover {
   background-color: var(--primary-color);
 }
 
 
 /*---------------------------------------
-  FEATURE BLOCK              
+  FEATURE BLOCK
 -----------------------------------------*/
 .featured-block {
   text-align: center;
@@ -668,7 +668,7 @@ strong {
 
 
 /*---------------------------------------
-  ABOUT              
+  ABOUT
 -----------------------------------------*/
 .about-section {
   background-repeat: no-repeat;
@@ -690,7 +690,7 @@ strong {
 
 
 /*---------------------------------------
-  COUNTER NUMBERS              
+  COUNTER NUMBERS
 -----------------------------------------*/
 .counter-thumb {
   margin: 20px;
@@ -713,7 +713,7 @@ strong {
 
 
 /*---------------------------------------
-  VOLUNTEER              
+  VOLUNTEER
 -----------------------------------------*/
 .volunteer-section {
   background: var(--secondary-color);
@@ -758,7 +758,7 @@ strong {
 
 
 /*---------------------------------------
-  DONATE              
+  DONATE
 -----------------------------------------*/
 .donate-section {
   background-image: url('../images/different-people-doing-volunteer-work.jpg');
@@ -780,7 +780,7 @@ strong {
 
 
 /*---------------------------------------
-  NEWS         
+  NEWS
 -----------------------------------------*/
 .news-detail-header-section {
   background-image: url('../images/news/close-up-volunteer-oganizing-stuff-donation.jpg');
@@ -936,7 +936,7 @@ blockquote::before {
 
 
 /*---------------------------------------
-  TESTIMONIAL CAROUSEL              
+  TESTIMONIAL CAROUSEL
 -----------------------------------------*/
 .testimonial-section {
   position: relative;
@@ -1039,30 +1039,30 @@ blockquote::before {
 #testimonial-carousel .carousel-indicators li {
   text-indent: inherit;
   background: transparent;
-  margin: 0 10px; 
+  margin: 0 10px;
 }
 
 #testimonial-carousel .carousel-indicators li,
 #testimonial-carousel .carousel-indicators li::before {
   width: 45px;
-  height: 45px; 
+  height: 45px;
 }
 
 #testimonial-carousel .carousel-indicators .avatar-image {
   width: 45px;
-  height: 45px; 
+  height: 45px;
 }
 
 #testimonial-carousel .carousel-indicators .active,
 #testimonial-carousel .carousel-indicators .active .avatar-image {
   background: transparent;
-  width: 50px; 
+  width: 50px;
   height: 50px;
 }
 
 
 /*---------------------------------------
-  CONTACT               
+  CONTACT
 -----------------------------------------*/
 .contact-section {
   background: var(--white-color);
@@ -1088,7 +1088,7 @@ blockquote::before {
 
 
 /*---------------------------------------
-  CUSTOM FORM               
+  CUSTOM FORM
 -----------------------------------------*/
 .custom-form .form-control,
 .input-group-file {
@@ -1228,7 +1228,7 @@ blockquote::before {
 
 
 /*---------------------------------------
-  CONTACT SEARCH & DONATE & SUBCRIBE FORM              
+  CONTACT SEARCH & DONATE & SUBCRIBE FORM
 -----------------------------------------*/
 .contact-form .form-control {
   background: var(--white-color);
@@ -1273,7 +1273,7 @@ blockquote::before {
 
 
 /*---------------------------------------
-  SITE FOOTER              
+  SITE FOOTER
 -----------------------------------------*/
 .site-footer {
   background-color: var(--site-footer-bg-color);
@@ -1290,11 +1290,11 @@ blockquote::before {
 }
 
 .site-footer-bottom a {
-	color: var(--white-color);
+  color: var(--white-color);
 }
 
 .site-footer-bottom a:hover {
-	color: #FF6;
+  color: #FF6;
 }
 
 .site-footer-link {
@@ -1317,7 +1317,7 @@ blockquote::before {
 
 
 /*---------------------------------------
-  FOOTER MENU               
+  FOOTER MENU
 -----------------------------------------*/
 .footer-menu {
   column-count: 2;
@@ -1341,7 +1341,7 @@ blockquote::before {
 
 
 /*---------------------------------------
-  SOCIAL ICON               
+  SOCIAL ICON
 -----------------------------------------*/
 .social-icon {
   margin: 0;
@@ -1374,7 +1374,7 @@ blockquote::before {
 
 
 /*---------------------------------------
-  RESPONSIVE STYLES               
+  RESPONSIVE STYLES
 -----------------------------------------*/
 @media screen and (min-width: 1600px) {
   .featured-block {
@@ -1385,7 +1385,7 @@ blockquote::before {
     width: 450px;
     height: 450px;
   }
-  
+
   .volunteer-image {
     width: 350px;
     height: 350px;
@@ -1449,7 +1449,7 @@ blockquote::before {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding: 8px 20px;
   }
-  
+
   .dropdown:hover .dropdown-menu {
     display: block;
     position: relative;
@@ -1467,7 +1467,7 @@ blockquote::before {
     height: inherit;
   }
 
-  .carousel:hover .carousel-control-next-icon, 
+  .carousel:hover .carousel-control-next-icon,
   .carousel:hover .carousel-control-prev-icon {
     opacity: 1;
   }
@@ -1484,7 +1484,7 @@ blockquote::before {
     right: 12px;
   }
 
-  .carousel-control-next-icon, 
+  .carousel-control-next-icon,
   .carousel-control-prev-icon {
     opacity: 1;
     width: 60px;
@@ -1555,7 +1555,7 @@ blockquote::before {
     padding: 30px;
   }
 
-  .counter-number, 
+  .counter-number,
   .counter-number-text {
     font-size: var(--h2-font-size);
   }
@@ -1624,7 +1624,7 @@ blockquote::before {
     padding-bottom: 30px;
   }
 
-  .carousel-control-next-icon, 
+  .carousel-control-next-icon,
   .carousel-control-prev-icon {
     width: 45px;
     height: 45px;
@@ -1661,3 +1661,88 @@ blockquote::before {
   }
 }
 
+.site-hero {
+  background-color: #ccc;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+.site-hero, .site-hero .row {
+  height: 100vh;
+  min-height: 800px;
+}
+.site-hero:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.site-hero h1 {
+  font-weight: 200;
+  margin-bottom: 20px;
+  display: block;
+}
+.site-hero h1 strong {
+  font-weight: 800;
+}
+@media (min-width: 768px) {
+  .site-hero h1 {
+    font-size: 70px;
+  }
+}
+.site-hero h1, .site-hero .lead {
+  font-weight: 200;
+  color: #fff;
+}
+.site-hero .lead {
+  line-height: 2;
+}
+.site-hero .site-subheading {
+  max-width: 640px;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.5);
+}
+@media (max-width: 991.98px) {
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-brand img {
+    width: 40%;
+    max-width: 100px;
+  }
+
+  .navbar-brand span {
+    font-size: 1rem;
+    margin-left: 0.5rem;
+  }
+
+  .navbar-nav {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 1rem;
+  }
+
+  .navbar-collapse {
+    background-color: #f8f9fa;
+    padding: 1rem;
+  }
+
+  .navbar-toggler {
+    display: block;
+  }
+
+  .navbar-collapse.collapse:not(.show) {
+    display: none;
+  }
+}
