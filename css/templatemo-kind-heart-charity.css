@@ -116,7 +116,7 @@ h1 {
 }
 
 h2 {
-  color: var(--secondary-color);
+  color: #282d65;
   font-size: var(--h2-font-size);
   letter-spacing: -2px;
 }
@@ -315,7 +315,7 @@ strong {
   color: #ffffff !important; /* Couleur du texte en blanc */
   border-radius: 5px; /* Arrondir les boutons */
   padding: 10px 15px; /* Espacement interne des boutons */
-  margin: 5px; /* Espacement autour des boutons */
+  margin-left: 10px !important; /* Espacement autour des boutons */
   transition: background-color 0.3s, box-shadow 0.3s;
 }
 
@@ -1669,20 +1669,21 @@ blockquote::before {
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
+  z-index: 1;
 }
 .site-hero, .site-hero .row {
   height: 100vh;
   min-height: 800px;
 }
-.site-hero:before {
+.site-hero::before {
   content: "";
   position: absolute;
   width: 100%;
+  height: 100%; /* Assurez-vous que la hauteur couvre toute la section */
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(135, 133, 172, 0.5);
+  background: rgba(135, 133, 172, 0.5); /* Couleur avec transparence */
+  z-index: -1; /* Positionne le pseudo-élément derrière le contenu principal */
 }
 .site-hero h1 {
   font-weight: 200;
@@ -1773,4 +1774,41 @@ blockquote::before {
 .featured-block-image {
   width: 100px;  /* Ajuste la largeur selon tes préférences */
   height: 100px; /* Ajuste la hauteur selon tes préférences */
+}
+
+.navbar-nav {
+  align-items: center; /* Assurer que les éléments de navigation sont alignés au centre verticalement */
+}
+
+.contact-btn {
+  background: transparent; /* Fond transparent pour correspondre au style de l'image */
+  color: #ffffff !important; /* Couleur du texte en blanc */
+  padding: 10px !important; /* Espacement interne du bouton */
+  border: 2px solid #ffffff; /* Bordure blanche */
+  border-radius: 25px; /* Bords arrondis pour donner l'effet souhaité */
+  text-transform: uppercase; /* Texte en majuscules */
+  transition: all 0.3s ease-in-out; /* Animation de transition fluide */
+  margin-left: 55px !important;
+}
+
+.contact-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15) !important;
+}
+
+
+.dnt-btn {
+  background: #8785ac; /* Fond transparent pour correspondre au style de l'image */
+  color: #ffffff !important; /* Couleur du texte en blanc */
+  padding: 10px !important; /* Espacement interne du bouton */
+  border: 0px solid ; /* Bordure blanche */
+  border-radius: 25px; /* Bords arrondis pour donner l'effet souhaité */
+  text-transform: uppercase; /* Texte en majuscules */
+  transition: all 0.3s ease-in-out; /* Animation de transition fluide */
+  margin-left: 55px !important;
+}
+
+.dnt-btn:hover {
+  background-color: rgb(22, 24, 51) !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15) !important;
 }
