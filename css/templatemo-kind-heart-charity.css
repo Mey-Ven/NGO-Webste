@@ -321,7 +321,6 @@ strong {
 
 .navbar-expand-lg .navbar-nav .nav-link.custom-btn {
   color: var(--custom-btn-bg-color);
-  margin-top: 8px;
   padding: 12px 25px;
 }
 
@@ -1776,19 +1775,25 @@ blockquote::before {
   height: 100px; /* Ajuste la hauteur selon tes préférences */
 }
 
+
+
 .navbar-nav {
   align-items: center; /* Assurer que les éléments de navigation sont alignés au centre verticalement */
 }
+
+
 
 .contact-btn {
   background: transparent; /* Fond transparent pour correspondre au style de l'image */
   color: #ffffff !important; /* Couleur du texte en blanc */
   padding: 10px !important; /* Espacement interne du bouton */
+  padding-left: 15px !important;
+  padding-right: 15px !important;
   border: 2px solid #ffffff; /* Bordure blanche */
   border-radius: 25px; /* Bords arrondis pour donner l'effet souhaité */
   text-transform: uppercase; /* Texte en majuscules */
   transition: all 0.3s ease-in-out; /* Animation de transition fluide */
-  margin-left: 55px !important;
+  margin-left: 20px !important;
 }
 
 .contact-btn:hover {
