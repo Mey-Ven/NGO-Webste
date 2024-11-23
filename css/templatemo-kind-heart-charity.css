@@ -207,7 +207,9 @@ strong {
   position: relative;
   overflow: hidden;
   transition: all 0.5s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre ajoutée */
 }
+
 
 .custom-block-wrap:hover {
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
