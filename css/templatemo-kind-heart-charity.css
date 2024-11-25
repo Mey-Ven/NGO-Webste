@@ -1706,9 +1706,7 @@ blockquote::before {
     margin-top: 20px; /* Ajoute de l'espace entre les colonnes */
   }
 
-  #empower a {
-    margin-top: 15px; /* Espace entre chaque bouton */
-  }
+
 
   .uniform-img {
     width: 100%; /* Largeur adaptée au conteneur */
@@ -1898,7 +1896,6 @@ blockquote::before {
   border-radius: 25px; /* Bords arrondis pour donner l'effet souhaité */
   text-transform: uppercase; /* Texte en majuscules */
   transition: all 0.3s ease-in-out; /* Animation de transition fluide */
-  margin-left: 55px !important;
 }
 
 .dnt-btn:hover {
